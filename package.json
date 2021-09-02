@@ -1,0 +1,15 @@
+{
+  "name": "web-editor",
+  "version": "1.0.0",
+  "description": "Editor de Texto Simples",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "Bruno Fortunato Domingos Mateus",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^14.0.0"
+  }
+}
