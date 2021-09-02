@@ -7,6 +7,8 @@ async function createWindow(){
         widht: 800,
         height: 500
     });
+    
+    await mainWindow.loadFile("src/pages/editor/index.html");
 }
 
 app.whenReady().then(createWindow);

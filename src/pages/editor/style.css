@@ -1,0 +1,24 @@
+/* Configuração inicial */
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+/*------------------------*/
+#texto-principal {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  font-size: 1em;
+}
+
+#texto-principal:focus {
+  outline: none;
+}
