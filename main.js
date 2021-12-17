@@ -7,11 +7,14 @@ async function createWindow() {
         widht: 800,
         height: 500,
         title: 'Editor de Texto',
+        show: false,
         webPreferences: {
             contextIsolation: true
         }
     });
+
     await mainWindow.loadFile("src/pages/editor/index.html");
+    mainWindow.show();
 }
 
 app.whenReady().then(createWindow);
